@@ -1,0 +1,42 @@
+{
+  "name": "@aether-winds/service-base-frontend",
+  "version": "0.0.1",
+  "description": "A base frontend service from which to build other services/user interfaces.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha src/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aether-winds/service_base-frontend.git"
+  },
+  "author": "Patrick Ortiz <pogithub@gmail.com>",
+  "license": "See LICENSE",
+  "bugs": {
+    "url": "https://github.com/aether-winds/service_base-frontend/issues"
+  },
+  "homepage": "https://github.com/aether-winds/service_base-frontend#readme",
+  "engine": {
+    "node": ">=22.14.0 <23.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.2",
+    "@types/express": "^5.0.3",
+    "@types/hbs": "^4.0.5",
+    "@types/mocha": "^10.0.10",
+    "@types/sinon": "^17.0.4",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "nodemon": "^3.1.10",
+    "sinon": "^21.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
